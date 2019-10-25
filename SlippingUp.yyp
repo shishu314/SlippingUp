@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "898091bc-5240-47bd-9a86-8a34eeb40e56",
+            "Value": {
+                "id": "82f3cbae-8030-49b9-8999-2c6ec3e93600",
+                "resourcePath": "objects\\obj_gui\\obj_gui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "98222352-10d5-41bc-92ed-11c7cd2309d4",
             "Value": {
                 "id": "658aab0c-259b-4feb-8ee0-ff3a9a6a1425",
@@ -252,6 +260,14 @@
                 "id": "4d32840a-b699-47cc-b5c2-025f28103246",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fcbad135-8fbc-433a-8359-3de62509df59",
+            "Value": {
+                "id": "624dbe01-30bf-4c2d-bdc8-7c4812c00f0d",
+                "resourcePath": "objects\\obj_gameManager\\obj_gameManager.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
