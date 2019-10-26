@@ -1,13 +1,14 @@
 /// @description Insert description here
 // You can write your code in this editor
-mspd=4
+acceleration = 0.1;
+mspd = 0;
 
-grounded=false
-isJumping=false
+grounded = false;
+isJumping = false;
 
-jumpTime = 0.15
-jumpTimer = 0
-jumpAmt=0
-jumpMax=3
+jumpTime = 0.15;
+jumpTimer = 0;
+jumpAmt = 0;
+jumpMax = 3;
 
-gravAmt=0.4
+gravAmt = 0.4;

@@ -3,12 +3,11 @@
 
 #region Movement
 if(keyboard_check(ord("A"))) {
-	x -= mspd;
+	mspd -= acceleration;
+} else if(keyboard_check(ord("D"))) {
+	mspd += acceleration;	
 }
-
-if(keyboard_check(ord("D"))) {
-	x += mspd;	
-}
+x += mspd;
 #endregion
 
 #region Jumping

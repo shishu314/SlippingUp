@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "22de58f5-9cf5-4dfc-b06b-c7cc42f53ec4",
+            "Value": {
+                "id": "6505256e-1ed4-41a2-be51-73ee839be0a7",
+                "resourcePath": "sprites\\spr_snowball\\spr_snowball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2995d01d-22fa-4914-a3aa-71069c17a2af",
             "Value": {
                 "id": "183582d1-777d-438f-84a5-8437611d0627",
