@@ -66,3 +66,11 @@ if(keyboard_check(ord("T"))) {
 	obj_player1Aim.angle = (obj_player1Aim.angle - 1)%360;
 }
 #endregion
+
+#region Power
+if(keyboard_check(ord("F"))) {
+	currPower = clamp(currPower +1, 0, maxPower);
+} else {
+	currPower = clamp(currPower - 5, 0, maxPower);
+}
+#endregion
