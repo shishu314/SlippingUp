@@ -7,6 +7,15 @@ if(keyboard_check(ord("H"))) {
 } else if(keyboard_check(ord("K"))) {
 	mspd += acceleration;
 }
+
+if(grounded) {
+	if(mspd > 0) {
+		mspd += global.iceSlip;
+	} else if (mspd < 0) {
+		mspd -= global.iceSlip;
+	}
+}
+
 x += mspd;
 #endregion
 
