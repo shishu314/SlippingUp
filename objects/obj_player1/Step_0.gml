@@ -48,3 +48,13 @@ if(jumpAmt<=0){
 	}
 }
 #endregion
+
+#region Aim
+if(keyboard_check(ord("R"))) {
+	obj_player1Aim.angle = (obj_player1Aim.angle + 1)%360;
+}
+
+if(keyboard_check(ord("T"))) {
+	obj_player1Aim.angle = (obj_player1Aim.angle - 1)%360;
+}
+#endregion
