@@ -85,3 +85,9 @@ if(keyboard_check(ord("L"))) {
 	currPower = clamp(currPower - 5, 0, maxPower);
 }
 #endregion
+
+#region Throw snowball
+if keyboard_check_released(ord("L")) {
+	Player2ThrowSnowBall(x, y);
+}
+#endregion

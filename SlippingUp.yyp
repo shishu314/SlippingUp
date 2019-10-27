@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "71fa28bc-707b-44c6-83df-3a9af439e343",
+            "Value": {
+                "id": "d8757f8d-da33-44b3-9afb-86f4532e1657",
+                "resourcePath": "sprites\\spr_Player2Aim\\spr_Player2Aim.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7959f63e-eeec-41b7-ad17-b1c84ae00d6c",
             "Value": {
                 "id": "411a7882-2620-42b2-aca2-a29a50bc211e",
@@ -306,7 +314,7 @@
             "Key": "c3dc5ccd-1143-4319-bc45-2cda97416091",
             "Value": {
                 "id": "6681e093-04b2-41e2-ae3f-7650e1898b4f",
-                "resourcePath": "sprites\\spr_aim\\spr_aim.yy",
+                "resourcePath": "sprites\\spr_Player1Aim\\spr_Player1Aim.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -340,6 +348,14 @@
                 "id": "29b12d9f-0fc6-4936-bef2-e51f47424be0",
                 "resourcePath": "sprites\\spr_player1_fall\\spr_player1_fall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d1bee76a-daa4-432d-aeca-38d4ea767b8b",
+            "Value": {
+                "id": "e8430712-07e0-477a-8a00-210d58734350",
+                "resourcePath": "scripts\\Player2ThrowSnowBall\\Player2ThrowSnowBall.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -383,6 +399,14 @@
             }
         },
         {
+            "Key": "f9d515cb-716d-42a6-a6cc-59cc419f4177",
+            "Value": {
+                "id": "fea13a91-7ead-44e2-9920-08810beee3a2",
+                "resourcePath": "objects\\obj_player2SnowBall\\obj_player2SnowBall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fcbad135-8fbc-433a-8359-3de62509df59",
             "Value": {
                 "id": "624dbe01-30bf-4c2d-bdc8-7c4812c00f0d",
@@ -392,7 +416,8 @@
         }
     ],
     "script_order": [
-        "bcf24a5c-9ce5-405b-8aa1-51ffc91d0918"
+        "bcf24a5c-9ce5-405b-8aa1-51ffc91d0918",
+        "d1bee76a-daa4-432d-aeca-38d4ea767b8b"
     ],
     "tutorial": ""
 }
