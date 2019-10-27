@@ -42,9 +42,9 @@ if grounded {
 }else{													
 	y -= jumpAmt;								
 	if(jumpTimer >= jumpTime) {
-		jumpAmt -= gravAmt;
+		jumpAmt -= global.gravAmt;
 	} else {
-		jumpAmt += gravAmt;	
+		jumpAmt += global.gravAmt;	
 	}
 	jumpTimer += 1/room_speed;
 	
@@ -83,5 +83,11 @@ if(keyboard_check(ord("F"))) {
 	currPower = clamp(currPower +1, 0, maxPower);
 } else {
 	currPower = clamp(currPower - 5, 0, maxPower);
+}
+#endregion
+
+#region Throw snowball
+if keyboard_check_released(ord("F")) {
+	Player1ThrowSnowBall(x, y);
 }
 #endregion

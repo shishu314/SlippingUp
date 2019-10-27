@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "22cdd69a-9434-4c63-8ec9-e95edbe7c2d2",
+            "Value": {
+                "id": "0e2b9599-6567-4cc3-8556-4877c9a87876",
+                "resourcePath": "objects\\obj_player1SnowBall\\obj_player1SnowBall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "22de58f5-9cf5-4dfc-b06b-c7cc42f53ec4",
             "Value": {
                 "id": "6505256e-1ed4-41a2-be51-73ee839be0a7",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "bcf24a5c-9ce5-405b-8aa1-51ffc91d0918",
+            "Value": {
+                "id": "e084111c-4922-4f88-8658-362c22051507",
+                "resourcePath": "scripts\\Player1ThrowSnowBall\\Player1ThrowSnowBall.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c2ce95ac-c023-4527-8826-814765f4c326",
             "Value": {
                 "id": "e16aefef-af72-4f84-a9de-e10104d7ef69",
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "f568ba9c-d4f3-4cc9-89b1-7728eea4401c",
+            "Value": {
+                "id": "ccf03edb-2cdf-4550-bb95-f03e946606b3",
+                "resourcePath": "objects\\obj_snowball\\obj_snowball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fcbad135-8fbc-433a-8359-3de62509df59",
             "Value": {
                 "id": "624dbe01-30bf-4c2d-bdc8-7c4812c00f0d",
@@ -368,7 +392,7 @@
         }
     ],
     "script_order": [
-        
+        "bcf24a5c-9ce5-405b-8aa1-51ffc91d0918"
     ],
     "tutorial": ""
 }

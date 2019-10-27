@@ -42,9 +42,9 @@ if grounded {
 }else{													
 	y -= jumpAmt;								
 	if(jumpTimer >= jumpTime) {
-		jumpAmt -= gravAmt;
+		jumpAmt -= global.gravAmt;
 	} else {
-		jumpAmt += gravAmt;							
+		jumpAmt += global.gravAmt;							
 	}
 	jumpTimer += 1/room_speed;
 	

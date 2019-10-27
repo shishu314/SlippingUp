@@ -11,7 +11,5 @@ jumpTimer = 0;
 jumpAmt = 0;
 jumpMax = 3;
 
-gravAmt = 0.4;
-
 currPower = 0;
 maxPower = 100;
