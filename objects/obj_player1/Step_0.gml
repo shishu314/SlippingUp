@@ -4,16 +4,21 @@
 #region Movement
 if(keyboard_check(ord("A"))) {
 	mspd -= acceleration;
+	sprite_index = spr_player1_run
+	image_xscale = -1
 } else if(keyboard_check(ord("D"))) {
 	mspd += acceleration;	
+	sprite_index = spr_player1_run
+	image_xscale = 1
 }
 
-if(grounded) {
+else if(grounded) {
 	if(mspd > 0) {
 		mspd += global.iceSlip;
 	} else if (mspd < 0) {
 		mspd -= global.iceSlip;
 	}
+	sprite_index = spr_player1_idle
 }
 
 x += mspd;
@@ -32,16 +37,22 @@ if grounded {
 	    jumpAmt = jumpMax;
 		y -= jumpAmt;
 		isJumping=true;
-		grounded=false;								
+		grounded=false;	
 	}
 }else{													
 	y -= jumpAmt;								
 	if(jumpTimer >= jumpTime) {
 		jumpAmt -= gravAmt;
 	} else {
-		jumpAmt += gravAmt;							
+		jumpAmt += gravAmt;	
 	}
 	jumpTimer += 1/room_speed;
+	
+	if (jumpAmt > 0) {
+		sprite_index = spr_player1_jump
+	} else {
+		sprite_index = spr_player1_fall
+	}	
 }
 #endregion
 

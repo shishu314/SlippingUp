@@ -4,16 +4,21 @@
 #region Movement
 if(keyboard_check(ord("H"))) {
 	mspd -= acceleration;
+	sprite_index = spr_player2_run
+	image_xscale = -1
 } else if(keyboard_check(ord("K"))) {
 	mspd += acceleration;
+	sprite_index = spr_player2_run
+	image_xscale = 1
 }
 
-if(grounded) {
+else if(grounded) {
 	if(mspd > 0) {
 		mspd += global.iceSlip;
 	} else if (mspd < 0) {
 		mspd -= global.iceSlip;
 	}
+	sprite_index = spr_player2_idle
 }
 
 x += mspd;
@@ -42,6 +47,12 @@ if grounded {
 		jumpAmt += gravAmt;							
 	}
 	jumpTimer += 1/room_speed;
+	
+	if (jumpAmt > 0) {
+		sprite_index = spr_player2_jump
+	} else {
+		sprite_index = spr_player2_fall
+	}	
 }
 #endregion
 
