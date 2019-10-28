@@ -33,7 +33,8 @@ if grounded {
 	jumpTimer = 0;
 	jumpAmt = 0	;									
 	
-	if keyboard_check_pressed(ord("W")){				
+	if keyboard_check_pressed(ord("W")){	
+		audio_play_sound(sfx_jump, 1, false)
 	    jumpAmt = jumpMax;
 		y -= jumpAmt;
 		isJumping=true;
