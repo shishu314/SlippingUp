@@ -56,21 +56,7 @@ if grounded {
 }
 #endregion
 
-#region Ground Check
-if(jumpAmt<=0){
-	hitPlat = instance_position(x, y+sprite_height/2, obj_platform);
-	if (hitPlat == noone) {
-		hitPlat = instance_position(x, y+sprite_height/2, obj_platform_melt);
-	}
-	if(hitPlat != noone) {
-		y = hitPlat.y - hitPlat.sprite_height/2 - sprite_height/2;
-		grounded = true;
-	} else {
-		grounded = false;
-	}
-}
-#endregion
-
+event_inherited();
 #region Aim
 if(keyboard_check(ord("O"))) {
 	obj_player2Aim.angle = (obj_player2Aim.angle + angleDelta)%360;
