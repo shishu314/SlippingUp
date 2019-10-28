@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1ddd4a86-004c-4770-b071-4fbce72dafae",
+            "Value": {
+                "id": "80ce2b92-e7a7-436b-a3f7-3a7723367f31",
+                "resourcePath": "objects\\obj_platform_melt\\obj_platform_melt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "216add34-77e2-4e58-a6f0-ec4a68b05a96",
             "Value": {
                 "id": "d48063c4-1476-4be0-a251-e661d688440c",

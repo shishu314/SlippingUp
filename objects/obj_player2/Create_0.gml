@@ -9,7 +9,7 @@ isJumping = false;
 jumpTime = 0.15;
 jumpTimer = 0;
 jumpAmt = 0;
-jumpMax = 3;
+jumpMax = 4;
 
 currPower = 0;
 maxPower = 100;
