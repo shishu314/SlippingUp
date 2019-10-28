@@ -2,7 +2,7 @@
     "id": "f568ba9c-d4f3-4cc9-89b1-7728eea4401c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_snowball",
+    "name": "obj_projectile",
     "eventList": [
         {
             "id": "49167a5c-d423-478a-9ba2-4e6cf02877a6",

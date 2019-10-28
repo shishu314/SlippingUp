@@ -394,7 +394,7 @@
             "Key": "f568ba9c-d4f3-4cc9-89b1-7728eea4401c",
             "Value": {
                 "id": "ccf03edb-2cdf-4550-bb95-f03e946606b3",
-                "resourcePath": "objects\\obj_snowball\\obj_snowball.yy",
+                "resourcePath": "objects\\obj_projectile\\obj_projectile.yy",
                 "resourceType": "GMObject"
             }
         },
