@@ -13,3 +13,5 @@ jumpMax = 4;
 
 currPower = 0;
 maxPower = 100;
+
+angleDelta = 3;

@@ -73,11 +73,11 @@ if(jumpAmt<=0){
 
 #region Aim
 if(keyboard_check(ord("O"))) {
-	obj_player2Aim.angle = (obj_player2Aim.angle + 1)%360;
+	obj_player2Aim.angle = (obj_player2Aim.angle + angleDelta)%360;
 }
 
 if(keyboard_check(ord("P"))) {
-	obj_player2Aim.angle = (obj_player2Aim.angle - 1)%360;
+	obj_player2Aim.angle = (obj_player2Aim.angle - angleDelta)%360;
 }
 #endregion
 
