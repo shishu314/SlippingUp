@@ -81,3 +81,9 @@ if keyboard_check_released(ord("F")) {
 	Player1ThrowSnowBall(x, y);
 }
 #endregion
+
+#region Out of bounds
+if(x+abs(sprite_width/2) < 0 || x - abs(sprite_width/2) > room_width || y+abs(sprite_height/2) < 0 || y - abs(sprite_height/2) > room_height){
+	global.player1Lives -= 1;
+}
+#endregion
