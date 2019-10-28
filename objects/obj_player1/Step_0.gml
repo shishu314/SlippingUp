@@ -3,10 +3,16 @@
 
 #region Movement
 if(keyboard_check(ord("A"))) {
+	if(obj_player1Aim.angle < 90) {
+		obj_player1Aim.angle = (540 - obj_player1Aim.angle) % 360;
+	}
 	mspd -= acceleration;
 	sprite_index = spr_player1_run
 	image_xscale = -1
 } else if(keyboard_check(ord("D"))) {
+	if(obj_player1Aim.angle > 90) {
+		obj_player1Aim.angle = (540 - obj_player1Aim.angle) % 360;
+	}
 	mspd += acceleration;	
 	sprite_index = spr_player1_run
 	image_xscale = 1
@@ -58,6 +64,7 @@ if grounded {
 #endregion
 
 event_inherited();
+/*
 #region Aim
 if(keyboard_check(ord("R"))) {
 	obj_player1Aim.angle = (obj_player1Aim.angle + angleDelta)%360;
@@ -67,7 +74,7 @@ if(keyboard_check(ord("T"))) {
 	obj_player1Aim.angle = (obj_player1Aim.angle - angleDelta)%360;
 }
 #endregion
-
+*/
 #region Power
 if(keyboard_check(ord("F"))) {
 	currPower = clamp(currPower +1, 0, maxPower);
