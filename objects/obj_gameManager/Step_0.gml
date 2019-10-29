@@ -17,7 +17,7 @@ if(room == gameScreen) {
 if(room == endScreen) {
 	if(keyboard_check_pressed(vk_space)) {
 		room_goto(startScreen);
-		global.player1Lives = 1;
-		global.player2Lives = 1;
+		global.player1Lives = 3;
+		global.player2Lives = 3;
 	}
 }

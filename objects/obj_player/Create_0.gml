@@ -15,3 +15,5 @@ currPower = 0;
 maxPower = 100;
 
 angleDelta = 3;
+
+fallen = false;
