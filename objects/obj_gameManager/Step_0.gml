@@ -3,6 +3,12 @@
 if(room == startScreen) {
 	if(keyboard_check_pressed(vk_space)) {
 		room_goto_next();
+	}
+}
+
+if(room == instructionScreen) {
+	if(keyboard_check_pressed(vk_space)) {
+		room_goto_next();
 		audio_play_sound(sfx_background, 1, true);
 	}
 }

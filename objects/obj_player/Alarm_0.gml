@@ -5,5 +5,4 @@ x = xstart;
 y = ystart-10;
 
 fallen = false;
-acceleration = 0.1;
 mspd = 0;

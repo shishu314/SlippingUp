@@ -8,6 +8,13 @@ if(room == startScreen) {
 	draw_text_transformed(room_width / 2, 4*room_height / 5, "Press Space to Start", 2, 2, 0);
 }
 
+if(room == instructionScreen) {
+	draw_text_transformed(room_width / 2, 1*room_height / 5, "Player 1 Controls", 2, 2, 0);
+	draw_text_transformed(room_width / 2, 2*room_height / 5, "WAD to move, F to throw snowball", 2, 2, 0);
+	draw_text_transformed(room_width / 2, 3*room_height / 5, "Player 2 Controls", 2, 2, 0);
+	draw_text_transformed(room_width / 2, 4*room_height / 5, "UHK to move, L to throw snowball", 2, 2, 0);
+}
+
 if(room == endScreen) {
 	draw_set_color(c_navy);
 	if(global.player1Lives == 0) {

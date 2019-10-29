@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "8a44cec4-6422-4880-96de-62acaba32127",
+            "Value": {
+                "id": "15aa19b7-23a1-4880-a40e-e448d6f12351",
+                "resourcePath": "rooms\\instructionScreen\\instructionScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "98222352-10d5-41bc-92ed-11c7cd2309d4",
             "Value": {
                 "id": "658aab0c-259b-4feb-8ee0-ff3a9a6a1425",
