@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 if (image_xscale > 0) {
-	image_xscale -= 0.0005
+	image_xscale -= 0.001
 }
