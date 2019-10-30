@@ -10,9 +10,9 @@ if(room == startScreen) {
 
 if(room == instructionScreen) {
 	draw_text_transformed(room_width / 2, 1*room_height / 5, "Player 1 Controls", .5, .5, 0);
-	draw_text_transformed(room_width / 2, 2*room_height / 5-25, "WAD to move, F to throw snowball", .5, .5, 0);
+	draw_text_transformed(room_width / 2, 2*room_height / 5-25, "WAD to move, Hold F to throw snowball", .5, .5, 0);
 	draw_text_transformed(room_width / 2, 3*room_height / 5+25, "Player 2 Controls", .5, .5, 0);
-	draw_text_transformed(room_width / 2, 4*room_height / 5, "UHK to move, L to throw snowball", .5, .5, 0);
+	draw_text_transformed(room_width / 2, 4*room_height / 5, "UHK to move, Hold L to throw snowball", .5, .5, 0);
 }
 
 if(room == endScreen) {
