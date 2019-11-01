@@ -17,3 +17,4 @@ maxPower = 100;
 angleDelta = 3;
 
 fallen = false;
+hasThrown = false;

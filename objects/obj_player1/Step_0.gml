@@ -76,16 +76,20 @@ if(keyboard_check(ord("T"))) {
 #endregion
 */
 #region Power
-if(keyboard_check(ord("F"))) {
+if(keyboard_check(ord("F")) && !hasThrown) {
 	currPower = clamp(currPower +1, 0, maxPower);
 } else {
 	currPower = clamp(currPower - 5, 0, maxPower);
 }
+if(currPower == 0) {
+	hasThrown = false;
+}
 #endregion
 
 #region Throw snowball
-if keyboard_check_released(ord("F")) {
+if keyboard_check_released(ord("F")) && !hasThrown {
 	Player1ThrowSnowBall(x, y);
+	hasThrown = true;
 }
 #endregion
 
