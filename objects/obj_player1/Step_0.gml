@@ -87,7 +87,7 @@ if(currPower == 0) {
 #endregion
 
 #region Throw snowball
-if keyboard_check_released(ord("F")) && !hasThrown {
+if keyboard_check_released(ord("F")) && !hasThrown && currPower >= 10 {
 	Player1ThrowSnowBall(x, y);
 	hasThrown = true;
 }
