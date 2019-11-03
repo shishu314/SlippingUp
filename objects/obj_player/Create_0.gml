@@ -18,3 +18,5 @@ angleDelta = 3;
 
 fallen = false;
 hasThrown = false;
+
+fric = 0.05;
