@@ -29,6 +29,21 @@ else if(grounded) {
 	sprite_index = spr_player2_idle;
 }
 
+if((image_xscale == 1 && collision_rectangle(x, y-15, x+15, y+sprite_height/2, obj_player1, false, false)) ||
+   (image_xscale == -1 && collision_rectangle(x-15, y-15, x, y+sprite_height/2, obj_player1, false, false))) {
+	if(mspd > 0){
+		mspd = max(mspd - fric * 5, 0);
+		obj_player1.mspd = max(mspd - fric * 5, 0);
+	} else if(mspd < 0){
+		mspd = min(mspd + fric * 5, 0);
+		obj_player1.mspd = min(mspd + fric * 5, 0);
+	}
+}
+if(collision_point(x, y+sprite_height, obj_player1, false, false)){
+	y = obj_player1.y - obj_player1.sprite_height + 3;
+	grounded = true;
+}
+
 x += mspd;
 #endregion
 
