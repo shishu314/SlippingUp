@@ -29,19 +29,20 @@ else if(grounded) {
 	sprite_index = spr_player1_idle;
 }
 
-if((image_xscale == 1 && collision_rectangle(x, y-15, x+15, y+sprite_height/2, obj_player2, false, false)) ||
-   (image_xscale == -1 && collision_rectangle(x-15, y-15, x, y+sprite_height/2, obj_player2, false, false))) {
+if(collided == false && place_meeting(x,y,obj_player2)) {
+	collided = true;
 	if(mspd > 0){
+		x -= 1;
 		mspd = max(mspd - fric * 5, 0);
 		obj_player2.mspd = max(mspd - fric * 5, 0);
 	} else if(mspd < 0){
+		x += 1;
 		mspd = min(mspd + fric * 5, 0);
 		obj_player2.mspd = min(mspd + fric * 5, 0);
 	}
-}
-if(collision_point(x, y+sprite_height, obj_player2, false, false)){
-	y = obj_player2.y - obj_player2.sprite_height + 3;
-	grounded = true;
+} 
+if(not place_meeting(x,y,obj_player2)){
+	collided = false;
 }
 
 x += mspd;
