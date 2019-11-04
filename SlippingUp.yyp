@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "c4f1ae11-5265-445b-a3c5-db6c509fe286",
+            "Value": {
+                "id": "67fcb2c6-6728-4714-9708-72a6b17ff8d2",
+                "resourcePath": "sprites\\spr_raindrop\\spr_raindrop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c8f4b2cc-dcda-431b-abdc-f38bb7d6a529",
             "Value": {
                 "id": "bf6d0a50-662e-4c15-a0a0-0864274428e6",
