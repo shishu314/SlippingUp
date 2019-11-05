@@ -29,22 +29,6 @@ else if(grounded) {
 	sprite_index = spr_player2_idle;
 }
 
-if(collided == false && place_meeting(x,y,obj_player1)) {
-	collided = true;
-	if(mspd > 0){
-		x -= 1;
-		mspd = max(mspd - fric * 5, 0);
-		obj_player1.mspd = max(mspd - fric * 5, 0);
-	} else if(mspd < 0){
-		x += 1;
-		mspd = min(mspd + fric * 5, 0);
-		obj_player1.mspd = min(mspd + fric * 5, 0);
-	}
-}
-if(not place_meeting(x,y,obj_player1)){
-	collided = false;
-}
-
 x += mspd;
 #endregion
 

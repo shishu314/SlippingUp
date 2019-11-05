@@ -29,22 +29,16 @@ else if(grounded) {
 	sprite_index = spr_player1_idle;
 }
 
-if(collided == false && place_meeting(x,y,obj_player2)) {
-	collided = true;
-	if(mspd > 0){
-		x -= 1;
-		mspd = max(mspd - fric * 5, 0);
-		obj_player2.mspd = max(mspd - fric * 5, 0);
-	} else if(mspd < 0){
-		x += 1;
-		mspd = min(mspd + fric * 5, 0);
-		obj_player2.mspd = min(mspd + fric * 5, 0);
-	}
-} 
-if(not place_meeting(x,y,obj_player2)){
-	collided = false;
-}
+var player2 = instance_place(x, y, obj_player2);
 
+if(player2 != noone){
+	distance = player2.x - x;
+	x -= distance/2;
+	player2.x += distance/2;
+	var p2Speed = player2.mspd;
+	player2.mspd = mspd;
+	mspd = p2Speed;
+}
 x += mspd;
 #endregion
 
