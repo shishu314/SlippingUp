@@ -7,14 +7,22 @@ if(keyboard_check(ord("H"))) {
 		obj_player2Aim.angle = (540 - obj_player2Aim.angle) % 360;
 	}
 	mspd -= acceleration;
-	sprite_index = spr_player2_run;
+	if (hasSpear) {
+		sprite_index = spr_player2_run_spear;
+	} else{
+		sprite_index = spr_player2_run;
+	}
 	image_xscale = -1;
 } else if(keyboard_check(ord("K"))) {
 	if(obj_player2Aim.angle > 90) {
 		obj_player2Aim.angle = (540 - obj_player2Aim.angle) % 360;
 	}
 	mspd += acceleration;
-	sprite_index = spr_player2_run;
+	if (hasSpear) {
+		sprite_index = spr_player2_run_spear;
+	} else{
+		sprite_index = spr_player2_run;
+	}
 	image_xscale = 1;
 }
 
@@ -26,7 +34,11 @@ else if(grounded) {
 		mspd -= global.iceSlip;
 		mspd += fric;
 	}
-	sprite_index = spr_player2_idle;
+	if (hasSpear) {
+		sprite_index = spr_player2_idle_spear;
+	} else{
+		sprite_index = spr_player2_idle;
+	}
 }
 
 x += mspd;
@@ -58,9 +70,17 @@ if grounded {
 	jumpTimer += 1/room_speed;
 	
 	if (jumpAmt > 0) {
-		sprite_index = spr_player2_jump;
+		if (hasSpear) {
+			sprite_index = spr_player2_jump_spear;
+		} else{
+			sprite_index = spr_player2_jump;
+		}
 	} else {
-		sprite_index = spr_player2_fall;
+		if (hasSpear) {
+			sprite_index = spr_player2_fall_spear;
+		} else{
+			sprite_index = spr_player2_fall;
+		}
 	}	
 }
 #endregion

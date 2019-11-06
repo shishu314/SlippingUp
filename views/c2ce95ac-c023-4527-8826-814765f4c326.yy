@@ -15,7 +15,11 @@
         "b7599232-85ea-448a-8758-1793da0aa77c",
         "0cb3259d-e6a1-459b-a3e7-a519a60b19d3",
         "058cb133-46d6-47db-bf82-9e3f908084fd",
-        "a5f2bf3f-095e-41c5-bfec-96a3f0c54612"
+        "a5f2bf3f-095e-41c5-bfec-96a3f0c54612",
+        "df4c17c0-047b-4570-bf99-699f000e8f1d",
+        "ad951641-c759-45ef-bd80-baaac1cadc5f",
+        "5f8e39d2-49ce-494e-93da-1be1274c22fa",
+        "5718b5a1-303e-4689-9f9b-aaaf7e65cb7c"
     ],
     "filterType": "GMSprite",
     "folderName": "Players",
