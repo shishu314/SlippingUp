@@ -18,6 +18,12 @@ if(room == gameScreen) {
 		room_goto_next();
 		audio_stop_sound(sfx_background);
 	}
+	#region Spear spawning
+	var randomNum = random_range(0, 1250);
+	if(randomNum < 2){
+		SpawnSpear();
+	}
+	#endregion
 }
 
 if(room == endScreen) {

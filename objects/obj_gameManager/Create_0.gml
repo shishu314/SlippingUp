@@ -5,4 +5,5 @@ global.gravAmt = 0.4;
 global.snowKnockbackVelocity = 20;
 global.player1Lives = 3;
 global.player2Lives = 3;
+randomize();
 
