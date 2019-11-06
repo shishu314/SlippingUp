@@ -3,11 +3,15 @@
 event_inherited();
 var player1 = instance_place(x, y, obj_player1);
 if(player1 != noone) {
-	player1.hasSpear = true;
-	instance_destroy();
+	if(!player1.hasSpear){
+		player1.hasSpear = true;
+		instance_destroy();
+	}
 }
 var player2 = instance_place(x, y, obj_player2);
 if(player2 != noone) {
-	player1.hasSpear = true;
-	instance_destroy();
+	if(!player2.hasSpear){
+		player2.hasSpear = true;
+		instance_destroy();
+	}
 }

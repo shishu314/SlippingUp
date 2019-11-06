@@ -19,7 +19,7 @@ if(room == gameScreen) {
 		audio_stop_sound(sfx_background);
 	}
 	#region Spear spawning
-	var randomNum = random_range(0, 1250);
+	var randomNum = random_range(0, 1000);
 	if(randomNum < 2){
 		SpawnSpear();
 	}

@@ -7,3 +7,4 @@ jumpAmt = 0;
 
 fallen = false;
 mspd = 0;
+hasSpear = false;
