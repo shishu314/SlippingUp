@@ -20,3 +20,5 @@ fallen = false;
 hasThrown = false;
 
 fric = 0.05;
+
+hasSpear = false;
