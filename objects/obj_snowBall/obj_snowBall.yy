@@ -2,7 +2,7 @@
     "id": "22cdd69a-9434-4c63-8ec9-e95edbe7c2d2",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player1SnowBall",
+    "name": "obj_snowBall",
     "eventList": [
         {
             "id": "4967082f-6f26-418f-86ad-2091a10d2e74",

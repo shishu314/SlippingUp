@@ -3,3 +3,4 @@
 maxVelocity = 20;
 yVelocity = 0;
 xVelocity = 0;
+fromPlayer1 = false;

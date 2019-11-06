@@ -106,7 +106,7 @@
             "Key": "22cdd69a-9434-4c63-8ec9-e95edbe7c2d2",
             "Value": {
                 "id": "0e2b9599-6567-4cc3-8556-4877c9a87876",
-                "resourcePath": "objects\\obj_player1SnowBall\\obj_player1SnowBall.yy",
+                "resourcePath": "objects\\obj_snowBall\\obj_snowBall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -500,14 +500,6 @@
                 "id": "7c1e4199-3bd2-47c6-91f4-f9721e68b01a",
                 "resourcePath": "views\\f6daf1fd-0ba8-496a-9a16-d338edf67342.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f9d515cb-716d-42a6-a6cc-59cc419f4177",
-            "Value": {
-                "id": "fea13a91-7ead-44e2-9920-08810beee3a2",
-                "resourcePath": "objects\\obj_player2SnowBall\\obj_player2SnowBall.yy",
-                "resourceType": "GMObject"
             }
         },
         {
