@@ -118,6 +118,9 @@ if keyboard_check_released(ord("L")) && !hasThrown && currPower >= 10 {
 #region Out of bounds
 if(!fallen && y - abs(sprite_height/2) > room_height){
 	global.player2Lives -= 1;
+	if(hasSpear) {
+		--global.spearCount;
+	}
 	fallen = true;
 	alarm[0] = room_speed*1;
 }

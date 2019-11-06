@@ -10,6 +10,7 @@ if(room == instructionScreen) {
 	if(keyboard_check_pressed(vk_space)) {
 		room_goto_next();
 		audio_play_sound(sfx_background, 1, true);
+		global.spearCount = 0;
 	}
 }
 
@@ -20,7 +21,7 @@ if(room == gameScreen) {
 	}
 	#region Spear spawning
 	var randomNum = random_range(0, 1000);
-	if(randomNum < 2){
+	if(randomNum < 2 && global.spearCount < 2){
 		SpawnSpear();
 	}
 	#endregion

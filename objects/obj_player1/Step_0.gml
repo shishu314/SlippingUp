@@ -129,6 +129,9 @@ if keyboard_check_released(ord("F")) && !hasThrown && currPower >= 10 {
 
 if(!fallen && y - abs(sprite_height/2) > room_height){
 	global.player1Lives -= 1;
+	if(hasSpear) {
+		--global.spearCount;
+	}
 	fallen = true;
 	alarm[0] = room_speed*1;
 
