@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00c56edd-d824-4ded-bf4e-808dc6df39d1",
+            "Value": {
+                "id": "f53d4b0b-780c-4e69-8644-52ed960f62aa",
+                "resourcePath": "objects\\obj_snow\\obj_snow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0396035e-79bf-4d81-97f4-082bce49b629",
             "Value": {
                 "id": "46d076b3-aedf-422f-88e1-bb8022e41273",
@@ -100,6 +108,14 @@
                 "id": "80ce2b92-e7a7-436b-a3f7-3a7723367f31",
                 "resourcePath": "objects\\obj_platform_melt\\obj_platform_melt.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1ff83609-1dc9-4b59-b55c-ffe4fc90c1fe",
+            "Value": {
+                "id": "b7015eac-c65f-47b7-b75c-1808038b1ca9",
+                "resourcePath": "scripts\\SpawnParticles\\SpawnParticles.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -383,14 +399,6 @@
             }
         },
         {
-            "Key": "a96fcb32-ae17-4e8e-82da-d0b49ce21cb2",
-            "Value": {
-                "id": "d207ba4e-b349-4406-b32d-fe97e022c6b7",
-                "resourcePath": "objects\\obj_spear\\obj_spear.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ac1279ba-7fe8-4115-a893-9e5b4300f318",
             "Value": {
                 "id": "b2743493-eb8b-4bb7-ab59-8b081c30372c",
@@ -436,6 +444,14 @@
                 "id": "e084111c-4922-4f88-8658-362c22051507",
                 "resourcePath": "scripts\\Player1ThrowSnowBall\\Player1ThrowSnowBall.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c1798cec-2f01-4431-af12-ec60bfe9205b",
+            "Value": {
+                "id": "a4048297-ed13-4e36-b70d-09922efeeeb4",
+                "resourcePath": "sprites\\spr_snow\\spr_snow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -634,7 +650,8 @@
     "script_order": [
         "bcf24a5c-9ce5-405b-8aa1-51ffc91d0918",
         "d1bee76a-daa4-432d-aeca-38d4ea767b8b",
-        "0d75ec42-6012-4e18-b523-1f38542a611d"
+        "0d75ec42-6012-4e18-b523-1f38542a611d",
+        "1ff83609-1dc9-4b59-b55c-ffe4fc90c1fe"
     ],
     "tutorial": ""
 }

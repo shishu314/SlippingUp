@@ -15,6 +15,8 @@ if(room == instructionScreen) {
 }
 
 if(room == gameScreen) {
+	SpawnParticles(random_range(0, room_width), -10, 2,  obj_snow)
+
 	if(global.player1Lives == 0 || global.player2Lives == 0) {
 		room_goto_next();
 		audio_stop_sound(sfx_background);
