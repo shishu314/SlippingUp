@@ -13,6 +13,7 @@ if(x < sprite_width/2 || x - sprite_width/2 > room_width || y - sprite_height/2 
 #region platform collision
 checkPlat = collision_circle(x, y, sprite_width/2, obj_platform, false, false);
 if(checkPlat != noone) {
+	audio_play_sound(sfx_snowball_hit, 1, false);
 	instance_destroy();
 }
 #endregion

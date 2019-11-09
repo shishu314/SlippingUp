@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "4190648f-15c2-49eb-b92f-4b6b8e642bb0",
+            "Value": {
+                "id": "9d8c95ef-f564-4407-84bc-a5d3a9159ca7",
+                "resourcePath": "sounds\\sfx_ice_slip\\sfx_ice_slip.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "42294781-25fc-4dcc-834a-5b1f11caa72b",
             "Value": {
                 "id": "9c8dde4d-9326-473e-88c7-9a4b19c427a5",
@@ -247,6 +255,14 @@
             }
         },
         {
+            "Key": "5e0b7b73-f61b-465e-b624-e331694d2b12",
+            "Value": {
+                "id": "7b384853-3e7b-4d30-b31e-53b2e2631bf6",
+                "resourcePath": "sounds\\sfx_snowball_hit\\sfx_snowball_hit.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5ecbdfb4-f8d3-43af-8fdf-f2ff28a12e96",
             "Value": {
                 "id": "4efbd8a1-3324-4081-b219-48aadea9ee2e",
@@ -279,6 +295,14 @@
             }
         },
         {
+            "Key": "67b57870-722e-4fc0-8c34-f569bd2a6664",
+            "Value": {
+                "id": "2a8b8c0c-40ce-46da-b2c4-f2eae93ef468",
+                "resourcePath": "sounds\\sfx_walk2\\sfx_walk2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "68b15c0d-5d4b-44ce-8005-12cfa7c64ca2",
             "Value": {
                 "id": "abc47370-2cec-4c34-b876-00c4c3b12d54",
@@ -300,6 +324,14 @@
                 "id": "e02abfaf-676c-4eb0-96bd-fa42c4092544",
                 "resourcePath": "sprites\\spr_player1_jump_spear\\spr_player1_jump_spear.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "71eaa723-6d74-45bb-b1f3-cbd10ea3fca3",
+            "Value": {
+                "id": "1e5a5ab7-cee1-4e9f-91a8-9a15119a3087",
+                "resourcePath": "sounds\\sfx_walk1\\sfx_walk1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -623,11 +655,27 @@
             }
         },
         {
+            "Key": "f230163a-7350-4ea5-98d9-85694d9904dc",
+            "Value": {
+                "id": "6f813224-a93b-4192-9da1-418cd41dadf0",
+                "resourcePath": "sounds\\sfx_spear_fall\\sfx_spear_fall.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "4d32840a-b699-47cc-b5c2-025f28103246",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f5608996-7746-4f02-9b87-dcf2c51e1edb",
+            "Value": {
+                "id": "e4ba6051-6e71-4d2d-bb30-99ccdd308504",
+                "resourcePath": "sounds\\sfx_get_spear\\sfx_get_spear.yy",
+                "resourceType": "GMSound"
             }
         },
         {
