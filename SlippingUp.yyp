@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "04d34351-c852-4a0b-bdb3-7cd500e63454",
+            "Value": {
+                "id": "5061fcca-291a-4de1-997a-48b063e40a45",
+                "resourcePath": "objects\\obj_spear\\obj_spear.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "058cb133-46d6-47db-bf82-9e3f908084fd",
             "Value": {
                 "id": "df738f53-5f80-4b2f-bdac-80569012f192",
@@ -140,6 +148,14 @@
                 "id": "6505256e-1ed4-41a2-be51-73ee839be0a7",
                 "resourcePath": "sprites\\spr_snowball\\spr_snowball.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "234fa41f-a031-4cd4-808d-519f16247206",
+            "Value": {
+                "id": "3cb5403d-7b12-4b0b-8da7-7cbadebf81e2",
+                "resourcePath": "scripts\\Player2ThrowSpear\\Player2ThrowSpear.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -244,6 +260,14 @@
                 "id": "72c82d8f-4154-4983-be6a-4ba9550bd0ed",
                 "resourcePath": "sprites\\spr_player2_jump_spear\\spr_player2_jump_spear.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "61f42d82-fe81-4935-9fc3-97b611fbdafe",
+            "Value": {
+                "id": "422047e0-6b1c-4dc5-b176-f0f8d5fa6045",
+                "resourcePath": "scripts\\Player1ThrowSpear\\Player1ThrowSpear.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -659,7 +683,9 @@
         "bcf24a5c-9ce5-405b-8aa1-51ffc91d0918",
         "d1bee76a-daa4-432d-aeca-38d4ea767b8b",
         "0d75ec42-6012-4e18-b523-1f38542a611d",
-        "1ff83609-1dc9-4b59-b55c-ffe4fc90c1fe"
+        "1ff83609-1dc9-4b59-b55c-ffe4fc90c1fe",
+        "61f42d82-fe81-4935-9fc3-97b611fbdafe",
+        "234fa41f-a031-4cd4-808d-519f16247206"
     ],
     "tutorial": ""
 }

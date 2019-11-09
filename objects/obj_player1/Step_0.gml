@@ -118,9 +118,13 @@ if(currPower == 0) {
 }
 #endregion
 
-#region Throw snowball
+#region Throw
 if keyboard_check_released(ord("F")) && !hasThrown && currPower >= 10 {
-	Player1ThrowSnowBall(x, y);
+	if(hasSpear){
+		Player1ThrowSpear(x, y);
+	} else {
+		Player1ThrowSnowBall(x, y);
+	}
 	hasThrown = true;
 }
 #endregion

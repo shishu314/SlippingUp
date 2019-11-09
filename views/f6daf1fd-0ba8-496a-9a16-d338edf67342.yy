@@ -6,7 +6,8 @@
     "children": [
         "f568ba9c-d4f3-4cc9-89b1-7728eea4401c",
         "22cdd69a-9434-4c63-8ec9-e95edbe7c2d2",
-        "a4048893-e17a-4dd7-9ca2-fe339ccd9d75"
+        "a4048893-e17a-4dd7-9ca2-fe339ccd9d75",
+        "04d34351-c852-4a0b-bdb3-7cd500e63454"
     ],
     "filterType": "GMObject",
     "folderName": "Throwable",
