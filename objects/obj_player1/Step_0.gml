@@ -29,10 +29,18 @@ if(keyboard_check(ord("A"))) {
 else if(grounded) {
 	if(mspd > 0) {
 		mspd += global.iceSlip;
-		mspd -= fric;
+		if(mspd - fric < 0){
+			mspd = 0;
+		} else{
+			mspd -= fric;
+		}
 	} else if (mspd < 0) {
 		mspd -= global.iceSlip;
-		mspd += fric;
+		if(mspd - fric > 0){
+			mspd = 0;
+		} else{
+			mspd += fric;
+		}
 	}
 	if (hasSpear) {
 		sprite_index = spr_player1_idle_spear;

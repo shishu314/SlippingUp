@@ -19,6 +19,6 @@ angleDelta = 3;
 fallen = false;
 hasThrown = false;
 
-fric = 0.05;
+fric = 0.15;
 
 hasSpear = false;
