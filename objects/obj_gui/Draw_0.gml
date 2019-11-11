@@ -4,16 +4,22 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 if(room == startScreen) {
 	//draw_set_color(c_navy);
-	draw_text_transformed(room_width / 2, 1*room_height / 3, "Slipping Up", 1, 1, 0);
+	draw_text_transformed(room_width / 2, 1*room_height / 3, "Slipping Up", 1.2, 1.2, 0);
 	draw_text_transformed(room_width / 2, 4*room_height / 5, "Press Space to Start", .5, .5, 0);
 }
 
+if(room == rulesScreen){
+	draw_text_transformed(room_width / 2, 1*room_height / 5, "Rules", 1, 1, 0);
+	draw_text_transformed(room_width / 2, 2*room_height / 5, "Knock your opponent off the map", .5, .5, 0);
+	draw_text_transformed(room_width / 2, 3*room_height / 5-60, "with your snowballs!", .5, .5, 0);
+	draw_text_transformed(room_width / 2, 4*room_height / 5-60, "Grab an ice spear to shoot straight.", .5, .5, 0);
+}
+
 if(room == instructionScreen) {
-	draw_text_transformed(room_width / 2, 1*room_height / 6, "Player 1 Controls", .5, .5, 0);
-	draw_text_transformed(room_width / 2, 2*room_height / 6-25, "WAD to move, Hold F to throw snowball", .5, .5, 0);
-	draw_text_transformed(room_width / 2, 3*room_height / 6+25, "Player 2 Controls", .5, .5, 0);
-	draw_text_transformed(room_width / 2, 4*room_height / 6, "UHK to move, Hold L to throw snowball", .5, .5, 0);
-	draw_text_transformed(room_width / 2, 5*room_height / 6, "Knock your opponent Off the map!", .5, .5, 0);
+	draw_text_transformed(room_width / 2, 1*room_height / 5, "Player 1 Controls", .8, .8, 0);
+	draw_text_transformed(room_width / 2, 2*room_height / 5-20, "WAD to move, Hold F to throw", .5, .5, 0);
+	draw_text_transformed(room_width / 2, 3*room_height / 5+20, "Player 2 Controls", .8, .8, 0);
+	draw_text_transformed(room_width / 2, 4*room_height / 5, "UHK to move, Hold L to throw", .5, .5, 0);
 }
 
 if(room == endScreen) {

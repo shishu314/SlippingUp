@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "8f9fc64b-edf1-40ed-ba18-449ca8ff8cab",
+            "Value": {
+                "id": "4c3b0623-b831-4f44-b6a1-72a190d773f2",
+                "resourcePath": "rooms\\rulesScreen\\rulesScreen.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "98222352-10d5-41bc-92ed-11c7cd2309d4",
             "Value": {
                 "id": "658aab0c-259b-4feb-8ee0-ff3a9a6a1425",
